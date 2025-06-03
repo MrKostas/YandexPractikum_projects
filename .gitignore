@@ -1,3 +1,4 @@
 .py_env/
 project_HeartDiseasePred/test.py
 project_HeartDiseasePred/catboost_info
+project_HeartDiseasePred/__pycache__

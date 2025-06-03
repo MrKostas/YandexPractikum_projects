@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HeartBreakCheck</title>
+    <link href="{{ url_for('static', path='/styles/style.css') }}" rel="stylesheet"/>
+</head>
+<body>
+<header>
+    <a href="#"><h1 id="site_title">HeartBreakCheck</h1></a>
+</header>
+<main>
+  <section class="form_field">
+    <h2 class = "red_text">
+        Invalid file format or missing medical data
+    </h2>
+    <div class = "red_text form_item">
+        Please upload a valid JSON or CSV file
+    </div>
+    <form action="/start" method="get">
+      <div class="form_item">
+        <input type='submit' value='Try again' class="green_button"/>
+      </div>
+    </form>
+  </section>
+</main>
+<footer>
+    <section>
+        <span>&copy; HeartBreakCheck, Inc 2025</span>
+        <span class="menu_item"><a href="#">Terms</a></span>
+        <span class="menu_item"><a href="#">Privacy</a></span>
+    </section>
+</footer>
+</body>
+</html>
