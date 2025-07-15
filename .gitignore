@@ -2,3 +2,4 @@
 project_HeartDiseasePred/test.py
 project_HeartDiseasePred/catboost_info
 project_HeartDiseasePred/__pycache__
+notebooks/catboost_info
